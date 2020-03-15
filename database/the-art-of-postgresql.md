@@ -42,3 +42,18 @@
 # Chapter 5 - Data Types
 - Postgres `UUID` type is stored in 16 bytes, while a text representation of a UUID is stored in 37 bytes
 - For `jsonb`, you can use `@>` (read *contains*)
+
+# Chapter 6 - Data Modeling
+- Databases cannot interact with each other. If you need two sets of data to interact, but then in separate schemas.
+- [Basics of the Unix Philosophy](http://labor-liber.org/en/gnu-linux/introduction/index.php?diapo=unix_philosophy)
+- [Normal forms](https://en.wikipedia.org/wiki/Database_normalization)
+- Anomalies
+    - Update - the same information can be expressed on multiple rows; therefore updates to the relation may result in logical inconsistencies
+    - Insertion - there are circumstances in which certain facts cannot be recorded at all
+    - Deletion - under certain circumstances, deletion of data representing certain facts necessitates deletion of data representing completely different facts
+- Use materialized views when you access the data more often than it changes
+
+## quotes
+> Simple things should be simple, complex things should be possible.
+
+> Data structures, not algorithms, are central to programming. 
