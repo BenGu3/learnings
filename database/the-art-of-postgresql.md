@@ -44,6 +44,9 @@
 - For `jsonb`, you can use `@>` (read *contains*)
 
 # Chapter 6 - Data Modeling
+> Simple things should be simple, complex things should be possible.
+>
+> Data structures, not algorithms, are central to programming. 
 - Databases cannot interact with each other. If you need two sets of data to interact, but then in separate schemas.
 - [Basics of the Unix Philosophy](http://labor-liber.org/en/gnu-linux/introduction/index.php?diapo=unix_philosophy)
 - [Normal forms](https://en.wikipedia.org/wiki/Database_normalization)
@@ -53,7 +56,10 @@
     - Deletion - under certain circumstances, deletion of data representing certain facts necessitates deletion of data representing completely different facts
 - Use materialized views when you access the data more often than it changes
 
-## quotes
-> Simple things should be simple, complex things should be possible.
-
-> Data structures, not algorithms, are central to programming. 
+# Chapter 7 - Data Manipulation and Concurrency Control
+- `returning` is a postgresql feature 
+- An `update` actually does `insert` and `delete` under the hood
+- `delete` actually marks tuple for deletion. `autodaemon` deletes tuple during auto vacuuming
+- `truncate` doesn’t mark tulles for deletion. It actually deletes the data files on disk
+- A row is locked when updating and uncommitted
+- Data is a first class citizen
