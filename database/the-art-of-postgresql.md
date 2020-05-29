@@ -1,4 +1,6 @@
-# Chapter 3 - Writing SQL Queries
+# The Art of PostgreSQL
+
+## Chapter 3 - Writing SQL Queries
 - You can't truly abstract business logic out of database queries
 - Without indexes, SQL databases use *sequential scans*
 - With indexes, SQL databases use *index accessing methods*, which are much faster than *sequential scans*
@@ -17,7 +19,7 @@
 - In Channels, we use integration tests to test database queries Should we be unit testing them instead?
 - Business logic in queries (RoleIQ Leader vs. Channels)?
 
-# Chapter 4 - SQL Toolbox
+## Chapter 4 - SQL Toolbox
 - Breakdown of SQL (structured query language)
     - DML (data manipulation language) = `insert`, `delete`, `update`
     - DDL (data definition language) = `create`, `alter`, `drop`
@@ -39,11 +41,11 @@
     - `full outer join` (`left` + `right`)
     - `lateral join`
 
-# Chapter 5 - Data Types
+## Chapter 5 - Data Types
 - Postgres `UUID` type is stored in 16 bytes, while a text representation of a UUID is stored in 37 bytes
 - For `jsonb`, you can use `@>` (read *contains*)
 
-# Chapter 6 - Data Modeling
+## Chapter 6 - Data Modeling
 > Simple things should be simple, complex things should be possible.
 >
 > Data structures, not algorithms, are central to programming. 
@@ -56,7 +58,7 @@
     - Deletion - under certain circumstances, deletion of data representing certain facts necessitates deletion of data representing completely different facts
 - Use materialized views when you access the data more often than it changes
 
-# Chapter 7 - Data Manipulation and Concurrency Control
+## Chapter 7 - Data Manipulation and Concurrency Control
 - `returning` is a postgresql feature 
 - An `update` actually does `insert` and `delete` under the hood
 - `delete` actually marks tuple for deletion. `autodaemon` deletes tuple during auto vacuuming

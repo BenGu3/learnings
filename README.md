@@ -9,3 +9,6 @@ my notes from various books/articles/courses/conferences
 
 ### database
 - [The Art of PostgreSQL](database/the-art-of-postgresql.md) (Dimitri Fontaine)
+
+### product management
+- [This is Lean](product-management/this-is-lean.md) (Niklas Modig)
