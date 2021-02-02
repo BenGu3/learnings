@@ -20,3 +20,15 @@
 - Flow efficiency is the sum of value-adding activities in relation to throughput time.
 - Value can be added according to direct and indirect needs.
 - Flow efficiency is not about the speed of a value-adding activity, but what percent of the time is adding value versus not.
+
+## Chapter 3 - What makes a process flow
+
+- Little’s law states `throughputTime = flowUnitsInProcess x cycleTime`
+- The law of bottlenecks states that throughout time is most impacted by the stage of the process that has the longest cycle time (or slowest flow)
+- Process bottlenecks can move and pop up in different stages of the process after allocating more resources to fixing the bottleneck
+- Bottlenecks can occur for two reasons:
+    - Stages of a process must be done sequentially
+    - Stages of a process vary in cycle time
+- The reason for variation can be divided into three categories: resources, flow units, and external factors
+- Regardless of the reason, variation will affect either processing time or arrival time
+- Increased variation causes increased throughput time
