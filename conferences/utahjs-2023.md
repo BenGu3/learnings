@@ -33,7 +33,7 @@
 - Always validate/clean user input on frontend and backend
 - Use hash params instead of query params for sensitive data
 
-## **Make Work Not Suck: Improving the Developer Experience**
+## Make Work Not Suck: Improving the Developer Experience
 (Todd Fisher)
 
 - Which metrics can help us improve?
@@ -61,7 +61,7 @@
         - Fixed scope vs fixed delivery
         - Frequent updates
 
-## ****Hydration, Islands, Streaming, and Resumability!****
+## Hydration, Islands, Streaming, and Resumability!
 (Matheus Albuquerque)
 
 - Islands Architecture
@@ -74,16 +74,21 @@
 - React SSR
 - React Server Components
 
-## **Get Your Web App Development in Shape with SvelteKit**
+## Get Your Web App Development in Shape with SvelteKit
 (Brian Rinaldi)
 
 - [Svelte](https://svelte.dev/)
 - [SvelteKit](https://kit.svelte.dev/)
 
-## **Understanding Dependencies in JavaScript to Create a More Performant App**
+## Understanding Dependencies in JavaScript to Create a More Performant App
 (Tyler Hawkins)
 
 - Use a bundle analyzer
 - Lazy load (by page at least)
 - Use dynamic imports
 - Choose small 3rd party libs
+
+## Instant Enterprise
+(Matt Wood)
+
+- [Instant Enterprise](https://instant-enterprise.vercel.app/roadmap)
