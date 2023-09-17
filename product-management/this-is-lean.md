@@ -32,3 +32,50 @@
 - The reason for variation can be divided into three categories: resources, flow units, and external factors
 - Regardless of the reason, variation will affect either processing time or arrival time
 - Increased variation causes increased throughput time
+
+## Chapter 4 - The efficiency paradox
+
+- Source of Inefficiency 1: long throughput times
+  - Resource-efficient processes cause long throughput times which cause secondary needs
+- Source of inefficiency 2: many flow units
+  - Handling too many flow units at once creates more secondary needs
+  - Resource-efficient processes always need work to do
+- Source of inefficiency 3: many restarts per flow unit
+  - Context switching has a non-negligible cost
+  - Handovers cause restarts for the flow unit. Unfortunately, processes where a single resource can handle all tasks required by a flow unit are rare
+  - Handovers can cause a lack of responsibility/accountability. They can also cause an information loss
+- Secondary needs consume resources, even if no real value is created in this superfluous work
+- Just because you are working does not mean you are adding value. You can be doing superfluous work
+- Efficiency paradox = focus on resource effiency → secondary needs → superfluous work → wasted resources
+- Resolving efficiency paradox:
+  - Decrease throughput time
+  - Decrease number of flow units in process
+  - Decrease the number of restarts
+
+## Chapter 5 - Once upon a time... How Toyota became number one through customer focus
+
+- Toyota’s production system is built on two pillars
+  - Jidoka - automation with a human touch
+  - Just in time - eliminate all inventory and give the customer only what they want
+- The first effect of resource scarcity was to focus on “doing the right thing”
+- The second effect of resource scarcity was the focus on “doing things right”
+- Seven forms of waste
+  - Overproduction
+  - Waiting
+  - Transportation
+  - Inventory
+  - Movement
+  - Defective products
+
+## Chapter 7 - What lean is not
+
+- 3 problems with various definitions of lean
+  - Problem 1: defined at different levels of abstraction
+    - Lean is seen as everything from a philosophy to a system to a tool
+    - Most uses of lean have been low levels of abstraction and then applied to many scenarios
+    - Many organizations quick lean because it’s presented as a car manufacturing process rather than the why of the process
+  - Problem 2: lean as a means instead of an end
+    - The focus on the goal creates flexibility while the focus on the means creates limitations
+    - Organizations see implementing Toyota’s methods and tools as the end rather than just a means
+  - Problem 3: lean is everything that is good and everything good is lean
+    - Lean is not perfect. It’s not a silver bullet. It’s a choice
